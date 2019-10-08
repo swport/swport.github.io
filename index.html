@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Sumit Wadhwa Resume</title>
+    <link rel="stylesheet" href="./skeleton.min.css">
+    <style>
+        #container {
+            border: 1px solid #f9f9f9;
+            padding: 0 12px 0 12px;
+            box-shadow: 0px 0px 3px #e4e4e4;
+            margin-top: 1em;
+        }
+        #header {
+            position: relative;
+            padding: 10px;
+            border-top: none;
+            background-color: #eff5fb;
+        }
+        #header .social-links {
+            margin: 0;
+            top: 18px;
+            right: 10px;
+            list-style-type: none;
+        }
+        #header .social-links > li {
+            display: inline;
+            margin-right: 10px;
+        }
+        #header h2 {
+            margin: 0;
+        }
+        .gap {
+            margin-top: 3em;
+        }
+        #headline {
+            font-size: 1.1em;
+            margin: 0;
+        }
+        #projects {
+            position: relative;
+        }
+        #projects a {
+            text-decoration: none;
+        }
+        #projects li {
+            font-size: 1.3em;
+        }
+        #projects b {
+            font-size: 108%;
+        }
+        label>.label-body {
+            margin: 0;
+        }
+        @media (min-width: 991px) {
+            #header .social-links {
+                position: absolute;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div id="container" class="container">
+        <div id="header">
+            <h2>
+                Sumit Wadhwa
+            </h2>
+            <p id="headline">Web Developer with over 2 years of experince working with technologies like PHP, Js, Mysql, and Git</p>
+            <ul class="social-links">
+                <li>
+                    <a href="https://www.linkedin.com/in/s-wadhwa/" target="_blank">LinkedIn</a>
+                </li>
+                <li>
+                    <a href="https://github.com/chandlerbing016" target="_blank">Github</a>
+                </li>
+                <li>
+                    <a href="https://twitter.com/swadhwa016" target="_blank">Twitter</a>
+                </li>
+                <li>
+                    <a href="https://stackoverflow.com/users/11691977/jay-wadhwa" target="_blank">StackOverflow</a>
+                </li>
+            </ul>
+        </div>
+        <div id="projects" class="gap">
+            <h3>Github projects</h3>
+            <ul>
+                <li>
+                    <a href="https://github.com/chandlerbing016/storysharing" target="_blank">Story Sharing App</a> built using Symfony <a href=""></a>
+                </li>
+                <li>
+                    <a href="https://github.com/chandlerbing016/react-redux-weather" target="_blank">Simple Wheather App</a>  built using ReactJS
+                </li>
+                <li>
+                    <a href="https://gist.github.com/chandlerbing016/8ba2dacca8dc41d462cd4fd40f822b52" target="_blank">Dependency Resolver / Object Manager</a> in PHP
+                </li>
+            </ul>
+            <h3>Company projects</h3>
+            <p><b>Universal Casting</b>, a social networking web app for casting industry. This platform allows users to search for talents, send connection request, create posts of differnt kinds, like & comment on posts, and a lot more. My role was to create the entire platform.</p>
+            <p><b>Woundcharts</b>, a health record system. My job was to build APIs [Slim PHP Framework] for Android and iOS apps.</p>
+            <p><b><a href="https://www.holopay.co" target="_blank">Holopay</a></b>, an intuitive chat application, that also allows sending and requesting payments. My role was to integrate QuickBlox to develop the chat system.</p>
+        </div>
+    </div>
+</body>
+</html>
